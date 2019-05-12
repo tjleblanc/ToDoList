@@ -17,6 +17,9 @@
 		CDF8607A2287B20F00CE5492 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF860792287B20F00CE5492 /* Item.swift */; };
 		CDF8607C2287B22600CE5492 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8607B2287B22600CE5492 /* Category.swift */; };
 		CDF8607E2288632A00CE5492 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8607D2288632A00CE5492 /* SwipeTableViewController.swift */; };
+		CDF860852288AE8B00CE5492 /* LABLOGONewRound2.imageset in Resources */ = {isa = PBXBuildFile; fileRef = CDF860842288AE8B00CE5492 /* LABLOGONewRound2.imageset */; };
+		CDF8608D2288B63900CE5492 /* background.imageset in Resources */ = {isa = PBXBuildFile; fileRef = CDF8608C2288B63900CE5492 /* background.imageset */; };
+		CDF8608F2288BDF900CE5492 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF8608E2288BDF800CE5492 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		CDF860792287B20F00CE5492 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CDF8607B2287B22600CE5492 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CDF8607D2288632A00CE5492 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		CDF860842288AE8B00CE5492 /* LABLOGONewRound2.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LABLOGONewRound2.imageset; sourceTree = "<group>"; };
+		CDF8608C2288B63900CE5492 /* background.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = background.imageset; sourceTree = "<group>"; };
+		CDF8608E2288BDF800CE5492 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		D0AD918AA259B2847160CF6F /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +124,7 @@
 		CD085902228267F000BFC0B6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD0858F52282318500BFC0B6 /* LaunchScreen.storyboard */,
 				CD0858F02282318300BFC0B6 /* Main.storyboard */,
 			);
 			path = Views;
@@ -126,8 +133,10 @@
 		CD0859032282682F00BFC0B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDF8608E2288BDF800CE5492 /* 4.png */,
+				CDF8608C2288B63900CE5492 /* background.imageset */,
+				CDF860842288AE8B00CE5492 /* LABLOGONewRound2.imageset */,
 				CD0858F32282318500BFC0B6 /* Assets.xcassets */,
-				CD0858F52282318500BFC0B6 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF8608F2288BDF900CE5492 /* 4.png in Resources */,
+				CDF860852288AE8B00CE5492 /* LABLOGONewRound2.imageset in Resources */,
+				CDF8608D2288B63900CE5492 /* background.imageset in Resources */,
 				CD0858F72282318500BFC0B6 /* LaunchScreen.storyboard in Resources */,
 				CD0858F42282318500BFC0B6 /* Assets.xcassets in Resources */,
 				CD0858F22282318300BFC0B6 /* Main.storyboard in Resources */,
